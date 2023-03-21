@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  border: 1px solid;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.menu {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+ /* <style> olahraga page */
+
+.header.a {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: black;
+
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav :hover{
+    background-color: white;
+    color: black;
+  }
+  
+  
+
+.leftcolumn{
+    width: 75%;
+    float: left;
+
+
+}
+
+.rightcolumn{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+
+}
+
+.fakeimage {
+    background-color: #ddd;
+    padding: 40px;
+    margin-top: 10px;
+    background-image: url(pp.jpg);
+}
+
+.image {
+    background-color: #ddd;
+    padding: 30px;
+    margin-top: 20px;
+    background-image: url(mbappe.jpg);
+}
+
+.realimage {
+    background-color: #ddd;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: black;
+}
+.row :after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    margin-top:20px;
+}
+
+/* </style> olahraga page */
+
+.row:after {
+    content: "";
+    clear:both;
+    display: table;
+
+  }
+  [class*="col-3 menu"]{
+    float: left;
+    padding:15px;
+    border: 1px solid black
+  }
+  
+  [class*="col-9 menu"]{
+    float: right;
+    padding:15px;
+    border: 1px solid black
+  }
+
+  .col-3 {width: 25%;}
+ .col-9{width: 75%;}
+  
+.main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.adv {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer {
+  border: 1px solid black;
+  padding: 30px;
+  text-align: center;
+}
+
+.button {
+    padding: 20px;
+}
+.button:hover {
+    background-color: #555;
+  }
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
